@@ -72,6 +72,10 @@ body {
     align-items: center;
 }
 
+.banner-title {
+    text-align: center;
+}
+
 .banner-content {
     text-align: center;
 }
@@ -81,6 +85,7 @@ body {
     font-size: 4rem;
     font-weight: 800;
 }
+
 
 .banner-content p {
     color: rgb(198, 199, 201);
@@ -97,13 +102,10 @@ body {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     padding: 1rem;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     backdrop-filter: blur(4px);
-}
-
-.banner-title {
-    text-align: center;
 }
 
 input,
