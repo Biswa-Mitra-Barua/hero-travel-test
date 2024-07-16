@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+* {
+    margin: 0 auto;
+}
+
+/* shared styles */
+.primary-color {
+    color: rgb(255, 84, 0);
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* .container{
+    width: 90%;
+    margin: 6.1rem auto;
+    border-radius: 1rem;
+} */
+
+/* nav styles */
+.nav-container {
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+.nav-title {
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.nav-menu {
+    gap: 3rem;
+}
+
+.nav-menu p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.nav-menu-color {
+    color: rgb(66, 66, 71);
+}
+
+.home-weight {
+    font-weight: 700;
+}
+
+/* banner styles */
+.banner-container {
+    /* width: 1170px;
+    height: 500px; */
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/banner-image.png);
+    background-repeat: no-repeat;
+    padding: 7rem 0;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-inner-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-content p {
+    color: rgb(198, 199, 201);
+    width: 676px;
+    font-size: 1erm;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+
+.input-part {
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+.banner-title {
+    text-align: center;
+}
+
+input,
+select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    gap: 8px;
+    font-weight: 700;
+    padding: 0.7rem 1.2rem;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    color: white;
+}
